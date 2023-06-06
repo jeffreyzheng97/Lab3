@@ -1,0 +1,10 @@
+def write_file():
+    filename = "textfile.txt"
+    name = "Jeffrey Zheng"
+    file = open(filename, 'w')
+    file.write('My name is: ' + name)
+    file.close()
+    
+    print(filename + ' was created.')
+
+write_file()
